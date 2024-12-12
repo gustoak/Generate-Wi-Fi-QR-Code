@@ -23,7 +23,7 @@ pip install wifi-qrcode-generator
 Once installed, you can generate a QR Code for your Wi-Fi network using the following command:
 
 ```bash
-python -m wifi_qrcode_generator -S  NETWORK_NAME -a NETWORK_PASSWORD -p SENHA_DA_REDE -o NETWORK_PASSWORD
+python -m wifi_qrcode_generator -S  NETWORK_NAME -a SECURITY_TYPE -p NETWORK_PASSWORD -o NETWORK_PASSWORD
 ```
 
 > **Important**: Do **not** include quotes (`"`) around the parameter values. The script will not process them correctly if quotes are used.
